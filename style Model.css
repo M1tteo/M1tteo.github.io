@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#262022;
+    color: #000;
+    padding: 1rem;
+    border-bottom: 2px solid #f0bf21;
+}
+
+.searchbar {
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.searchbar-btn:hover {
+    background-color: #ff8400;
+}
+
+.searchbar-btn {
+    background-color: #f0bf21;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.flexbox-container {
+    height: 3000px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 70px;
+   
+}
+
+.flexbox-item {
+    height: 420px;
+    width: 500px;
+    
+    border: 2px solid rgb(0, 0, 0);
+    
+    border-radius: 5px;
+}
+
+.GR {
+    background-color: #d58326;
+}
+
+.EG {
+    background-color: #caaf7a;
+}
+
+.GIAP {
+    background-color: #8e8e8e;
+}
+
+.ARTU {
+    background-color: #cea36a;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center ;
+    text-decoration: underline;
+}
+
+.flexbox-container2 {
+    height: 500px;
+}
+
+.flexbox-item2 {
+    height: 250px;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.SIS {
+    background-color: #7b7b7b;
+}
+
+video {
+    width: 800px;
+    padding: 0 23%;
+}
+
+nav {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: start ;
+    text-decoration: overline;
+} */
+
+/* p {
+    color: #273b18;
+    background-color: rgb(165, 190, 215);
+}
+
+
+#p1 {
+    background-color: #777;
+}
+
+.main-paragraphs {
+    background-color:#dd7a1d;
+} */
+
+.main-section {
+    /* background-image: url(/images/apple\ watch.jpg); */
+    background-color: rgb(59, 59, 65);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid orange
+}
+
+/* div {
+    padding: 1rem;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #333;
+} */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+.icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons li a img {
+    height: 24px;
+}
+
+#footer-paragraph {
+    color: #fff;
+}
